@@ -803,8 +803,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-    background: #c50074;
-    border-color: #c50074;
+    background: #309a3f;
+    border-color: #309a3f;
 }
 
 button.full-width,
@@ -1259,7 +1259,6 @@ h1.intro-header::before {
     list-style: none;
     height: 72px;
     margin: 0 1rem 0 0;
-    margin-left: 0;
 }
 
 #header-nav-wrap .header-main-nav li {
@@ -1743,7 +1742,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     .home-content-left {
         width: 94%;
         position: static;
-        padding: 300px 6rem 366px;
+        padding: 15rem 6rem 366px;
         margin: 0 auto;
     }
 
@@ -1781,7 +1780,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 600px) {
     .home-content-left {
-        padding: 300px 6rem 366px;
+        padding: 12rem 6rem 366px;
     }
 
     .home-content-left h1 {
@@ -1870,7 +1869,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-features .feature h3 {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     margin-bottom: 3rem;
 }
 
@@ -2283,7 +2282,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 #testimonials {
-    padding: 9rem 0 9rem;
+    padding: 15rem 0 9rem;
     text-align: center;
     min-height: 600px;
 }
@@ -2571,8 +2570,7 @@ footer {
     padding-top: 9rem;
     padding-bottom: 4.2rem;
     font-size: 1.5rem;
-
-    /* line-height: 2.7rem */
+    line-height: 2.7rem;
     color: rgba(255, 255, 255, 0.25);
 }
 
@@ -2589,8 +2587,7 @@ footer a:focus {
 footer h4 {
     color: white;
     font-size: 1.5rem;
-
-    /* padding-bottom: 2.4rem */
+    padding-bottom: 2.4rem;
     margin-bottom: 2.4rem;
     position: relative;
 }
@@ -2879,64 +2876,4 @@ footer ul a:visited {
     .footer-bottom .copyright span::after {
         display: none;
     }
-}
-
-#fade {
-    display: none;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: 1001;
-    -moz-opacity: 0.8;
-    opacity: .80;
-    filter: alpha(opacity=80);
-}
-
-#light {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    max-width: 600px;
-    max-height: 360px;
-    margin-left: -300px;
-    margin-top: -180px;
-    border: 2px solid #FFF;
-    background: #FFF;
-    z-index: 1002;
-    overflow: visible;
-}
-
-#boxclose {
-    float: right;
-    cursor: pointer;
-    color: #fff;
-    border: 1px solid #AEAEAE;
-    border-radius: 3px;
-    background: #222222;
-    font-size: 31px;
-    font-weight: bold;
-    display: inline-block;
-    line-height: 0px;
-    padding: 11px 3px;
-    position: absolute;
-    right: 2px;
-    top: 2px;
-    z-index: 1002;
-    opacity: 0.9;
-}
-
-.boxclose:before {
-    content: "×";
-}
-
-#fade:hover ~ #boxclose {
-    display: none;
-}
-
-.test:hover ~ .test2 {
-    display: none;
 }

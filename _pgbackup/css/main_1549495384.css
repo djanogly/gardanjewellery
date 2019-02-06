@@ -1870,7 +1870,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-features .feature h3 {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     margin-bottom: 3rem;
 }
 
@@ -2283,7 +2283,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 #testimonials {
-    padding: 9rem 0 9rem;
+    padding: 15rem 0 9rem;
     text-align: center;
     min-height: 600px;
 }
@@ -2571,8 +2571,7 @@ footer {
     padding-top: 9rem;
     padding-bottom: 4.2rem;
     font-size: 1.5rem;
-
-    /* line-height: 2.7rem */
+    line-height: 2.7rem;
     color: rgba(255, 255, 255, 0.25);
 }
 
@@ -2589,8 +2588,7 @@ footer a:focus {
 footer h4 {
     color: white;
     font-size: 1.5rem;
-
-    /* padding-bottom: 2.4rem */
+    padding-bottom: 2.4rem;
     margin-bottom: 2.4rem;
     position: relative;
 }
