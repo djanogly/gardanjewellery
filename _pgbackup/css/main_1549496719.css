@@ -2283,11 +2283,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 #testimonials {
+    padding: 9rem 0 9rem;
     text-align: center;
     min-height: 600px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 9rem;
 }
 
 #testimonials h1::before {
@@ -2570,6 +2568,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 footer {
+    padding-top: 9rem;
+
     /* padding-bottom: 4.2rem */
     font-size: 1.5rem;
 
