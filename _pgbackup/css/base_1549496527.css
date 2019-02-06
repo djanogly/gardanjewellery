@@ -444,8 +444,7 @@ textarea {
 
 .col-three,
 .col-1-4 {
-    width: 50%;
-    padding-top: 2;
+    width: 33.333333333%;
 }
 
 .col-four,
@@ -737,7 +736,7 @@ textarea {
     }
 
     .block-m-1-2 .bgrid {
-        width: 100%;
+        width: 50%;
     }
 
     .block-m-full .bgrid {
